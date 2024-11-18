@@ -1,0 +1,76 @@
+@import url("./assets/fonts/fonts.css");
+
+:root {
+  --background-primary-color: #f3f3f3;
+  --background-secondary-color: #141414;
+
+  --text-primary-color: #141414;
+  --text-secondary-color: #f3f3f3;
+
+  --text-active-color: #0066ff;
+}
+.dark-theme {
+  --background-primary-color: #2e2e2e;
+  --background-secondary-color: #141414;
+
+  --text-primary-color: #f3f3f3;
+  --text-secondary-color: #f3f3f3;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 14px;
+
+  @media (min-width: 1400px) {
+    font-size: 16px;
+  }
+}
+
+body {
+  overflow-y: scroll;
+  color: var(--text-primary-color);
+}
+
+a {
+  transition: transform .3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.button:focus {
+  outline: none;
+}
+
+.page-top-padding {
+  padding-top: 144px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+  @media (min-width: 1400px) {
+    max-width: 1230px;
+  }
+}
