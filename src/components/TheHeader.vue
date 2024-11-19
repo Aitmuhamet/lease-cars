@@ -84,15 +84,16 @@ export default {
   },
   methods: {
     ...mapMutations([
-      'toggleMenu'
+      'toggleMenu',
+      'closeMenu'
     ]),
     handleScroll() {
       const currentScroll = window.scrollY
 
-      if (currentScroll > this.previousScroll && currentScroll > 100) {
+      if (currentScroll > this.previousScroll && currentScroll > 50) {
         this.isHeaderVisible = false;
         this.isHeaderDark = false
-      } else if (currentScroll < 100) {
+      } else if (currentScroll < 50) {
         this.isHeaderDark = false
       } else {
         this.isHeaderVisible = true
@@ -103,6 +104,11 @@ export default {
     }
 
   },
+  watch: {
+    $route() {
+      this.closeMenu();
+    }
+  }
 }
 </script>
 

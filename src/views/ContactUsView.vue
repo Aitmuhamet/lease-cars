@@ -1,12 +1,21 @@
 <template>
   <main :class="{'main': true, 'page-top-padding': $route.meta.mainPage === false}">
     Contact Us
+
+    <div class="container">
+
+      <cars-posts></cars-posts>
+    </div>
   </main>
 </template>
 
 <script>
-export default {
+import CarsPosts from '@/components/CarsPosts.vue';
 
+export default {
+  components: {
+    CarsPosts
+  }
 }
 </script>
 

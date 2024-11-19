@@ -1,0 +1,24 @@
+{
+  "cars_and_minivans": [
+    { "imgSrc": "cars-1.jpg", "manufacturer": "Toyota", "model": "Camry", "year": 2022, "price": 25000, "monthly_rental": 300 },
+    { "imgSrc": "cars-2.jpg", "manufacturer": "Honda", "model": "Accord", "year": 2023, "price": 26000, "monthly_rental": 310 },
+    { "imgSrc": "cars-3.jpg", "manufacturer": "Chrysler", "model": "Pacifica", "year": 2021, "price": 34000, "monthly_rental": 400 },
+    { "imgSrc": "cars-4.jpg", "manufacturer": "Hyundai", "model": "Sonata", "year": 2021, "price": 24000, "monthly_rental": 290 },
+    { "imgSrc": "cars-5.jpg", "manufacturer": "Nissan", "model": "Altima", "year": 2022, "price": 25000, "monthly_rental": 300 },
+    { "imgSrc": "cars-6.jpg", "manufacturer": "Volkswagen", "model": "Passat", "year": 2021, "price": 27000, "monthly_rental": 320 },
+    { "imgSrc": "cars-7.jpg", "manufacturer": "Toyota", "model": "Corolla", "year": 2023, "price": 20000, "monthly_rental": 260 },
+    { "imgSrc": "cars-8.jpg", "manufacturer": "Honda", "model": "Civic", "year": 2022, "price": 22000, "monthly_rental": 280 },
+    { "imgSrc": "cars-9.jpg", "manufacturer": "Chevrolet", "model": "Malibu", "year": 2023, "price": 23000, "monthly_rental": 290 },
+    { "imgSrc": "cars-10.jpg", "manufacturer": "Mazda", "model": "Mazda3", "year": 2022, "price": 21000, "monthly_rental": 270 },
+    { "imgSrc": "cars-11.jpg", "manufacturer": "Subaru", "model": "Impreza", "year": 2023, "price": 22000, "monthly_rental": 280 },
+    { "imgSrc": "cars-12.jpg", "manufacturer": "Kia", "model": "Optima", "year": 2021, "price": 24000, "monthly_rental": 300 },
+    { "imgSrc": "cars-13.jpg", "manufacturer": "Ford", "model": "Fusion", "year": 2020, "price": 25000, "monthly_rental": 310 },
+    { "imgSrc": "cars-14.jpg", "manufacturer": "Hyundai", "model": "Elantra", "year": 2022, "price": 23000, "monthly_rental": 290 },
+    { "imgSrc": "cars-15.jpg", "manufacturer": "Nissan", "model": "Sentra", "year": 2021, "price": 21000, "monthly_rental": 270 },
+    { "imgSrc": "cars-16.jpg", "manufacturer": "Toyota", "model": "Prius", "year": 2023, "price": 26000, "monthly_rental": 320 },
+    { "imgSrc": "cars-17.jpg", "manufacturer": "Honda", "model": "Insight", "year": 2022, "price": 25000, "monthly_rental": 310 },
+    { "imgSrc": "cars-18.jpg", "manufacturer": "Chevrolet", "model": "Bolt EV", "year": 2023, "price": 27000, "monthly_rental": 330 },
+    { "imgSrc": "cars-19.jpg", "manufacturer": "Volkswagen", "model": "Jetta", "year": 2021, "price": 24000, "monthly_rental": 300 },
+    { "imgSrc": "cars-20.jpg", "manufacturer": "Mazda", "model": "Mazda6", "year": 2022, "price": 26000, "monthly_rental": 320 }
+  ]
+}

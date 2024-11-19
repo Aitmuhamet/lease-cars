@@ -16,7 +16,11 @@
   --text-primary-color: #f3f3f3;
   --text-secondary-color: #f3f3f3;
 }
-
+.one-line-text {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 *,
 *::after,
 *::before {

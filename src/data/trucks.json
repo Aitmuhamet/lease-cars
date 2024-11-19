@@ -1,0 +1,24 @@
+{
+  "trucks": [
+    { "imgSrc": "trucks-1.jpg", "manufacturer": "Ford", "model": "F-150", "year": 2022, "price": 40000, "monthly_rental": 500 },
+    { "imgSrc": "trucks-2.jpg", "manufacturer": "Chevrolet", "model": "Silverado", "year": 2021, "price": 45000, "monthly_rental": 550 },
+    { "imgSrc": "trucks-3.jpg", "manufacturer": "Ram", "model": "1500", "year": 2023, "price": 47000, "monthly_rental": 600 },
+    { "imgSrc": "trucks-4.jpg", "manufacturer": "Toyota", "model": "Tundra", "year": 2022, "price": 42000, "monthly_rental": 525 },
+    { "imgSrc": "trucks-5.jpg", "manufacturer": "Nissan", "model": "Titan", "year": 2021, "price": 43000, "monthly_rental": 540 },
+    { "imgSrc": "trucks-6.jpg", "manufacturer": "GMC", "model": "Sierra", "year": 2022, "price": 46000, "monthly_rental": 575 },
+    { "imgSrc": "trucks-7.jpg", "manufacturer": "Honda", "model": "Ridgeline", "year": 2023, "price": 38000, "monthly_rental": 490 },
+    { "imgSrc": "trucks-8.jpg", "manufacturer": "Jeep", "model": "Gladiator", "year": 2023, "price": 47000, "monthly_rental": 620 },
+    { "imgSrc": "trucks-9.jpg", "manufacturer": "RAM", "model": "2500", "year": 2021, "price": 54000, "monthly_rental": 700 },
+    { "imgSrc": "trucks-10.jpg", "manufacturer": "Ford", "model": "Super Duty", "year": 2022, "price": 57000, "monthly_rental": 730 },
+    { "imgSrc": "trucks-11.jpg", "manufacturer": "Chevrolet", "model": "Colorado", "year": 2021, "price": 35000, "monthly_rental": 420 },
+    { "imgSrc": "trucks-12.jpg", "manufacturer": "Toyota", "model": "Tacoma", "year": 2023, "price": 39000, "monthly_rental": 500 },
+    { "imgSrc": "trucks-13.jpg", "manufacturer": "Nissan", "model": "Frontier", "year": 2022, "price": 37000, "monthly_rental": 480 },
+    { "imgSrc": "trucks-14.jpg", "manufacturer": "GMC", "model": "Canyon", "year": 2021, "price": 34000, "monthly_rental": 410 },
+    { "imgSrc": "trucks-15.jpg", "manufacturer": "RAM", "model": "3500", "year": 2023, "price": 58000, "monthly_rental": 750 },
+    { "imgSrc": "trucks-16.jpg", "manufacturer": "Ford", "model": "Ranger", "year": 2022, "price": 36000, "monthly_rental": 460 },
+    { "imgSrc": "trucks-17.jpg", "manufacturer": "Chevrolet", "model": "Avalanche", "year": 2021, "price": 37000, "monthly_rental": 480 },
+    { "imgSrc": "trucks-18.jpg", "manufacturer": "Isuzu", "model": "D-Max", "year": 2022, "price": 38000, "monthly_rental": 500 },
+    { "imgSrc": "trucks-19.jpg", "manufacturer": "Mazda", "model": "BT-50", "year": 2023, "price": 39000, "monthly_rental": 510 },
+    { "imgSrc": "trucks-20.jpg", "manufacturer": "Volkswagen", "model": "Amarok", "year": 2023, "price": 40000, "monthly_rental": 520 }
+  ]
+}

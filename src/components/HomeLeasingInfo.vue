@@ -77,7 +77,11 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding-left: 70px;
+  padding-left: 5%;
+
+  @media (min-width: 576px) {
+    padding-left: 70px;
+  }
 }
 
 .leasing-info__item {
@@ -85,9 +89,11 @@ export default {
   align-items: center;
   justify-content: space-between;
 
+  gap: 10px;
+
   span {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50px;
     flex-shrink: 0;
     background-color: #06f;
@@ -105,11 +111,21 @@ export default {
     font-weight: 700;
     line-height: normal;
   }
+
+  @media (min-width: 576px) {
+    gap: 0;
+
+    span {
+      width: 100px;
+      height: 100px;
+    }
+  }
 }
 
 .leasing-info__rule {
   max-width: 270px;
 }
+
 .leasing-info__note {
   max-width: 580px;
 }

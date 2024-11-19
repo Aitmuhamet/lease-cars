@@ -5,7 +5,7 @@
         <base-heading
           :title="getFactors.title"
           level="2"
-          custom-class="factors__list heading-h2"
+          custom-class="heading-h2"
         ></base-heading>
 
         <base-text
@@ -57,7 +57,14 @@ export default {
 
 <style lang="scss" scoped>
 .factors {
-  padding-top: 150px;
+  padding-top: 50px;
+
+  @media (min-width: 576px) {
+    padding-top: 100px;
+  }
+  @media (min-width: 992px) {
+    padding-top: 150px;
+  }
 }
 .factors__content {
   display: flex;
@@ -72,7 +79,18 @@ export default {
 .factors__list {
   margin-top: 50px;
   display: flex;
-  gap: 40px;
+  gap: 50px;
+  flex-wrap: wrap;
+
+  @media (min-width: 576px) {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: 1200px) {
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 .factors__item {
   display: flex;

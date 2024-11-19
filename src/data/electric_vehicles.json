@@ -1,0 +1,25 @@
+{
+  "electric_vehicles": [
+    { "imgSrc": "electric-vehicles-1.jpg", "manufacturer": "Tesla", "model": "Model S", "year": 2023, "price": 90000, "monthly_rental": 1100 },
+    { "imgSrc": "electric-vehicles-2.jpg", "manufacturer": "Tesla", "model": "Model 3", "year": 2022, "price": 55000, "monthly_rental": 700 },
+    { "imgSrc": "electric-vehicles-3.jpg", "manufacturer": "Tesla", "model": "Model X", "year": 2023, "price": 100000, "monthly_rental": 1200 },
+    { "imgSrc": "electric-vehicles-4.jpg", "manufacturer": "Tesla", "model": "Model Y", "year": 2022, "price": 60000, "monthly_rental": 750 },
+    { "imgSrc": "electric-vehicles-5.jpg", "manufacturer": "Nissan", "model": "Leaf", "year": 2023, "price": 32000, "monthly_rental": 400 },
+    { "imgSrc": "electric-vehicles-6.jpg", "manufacturer": "Chevrolet", "model": "Bolt EV", "year": 2022, "price": 37000, "monthly_rental": 450 },
+    { "imgSrc": "electric-vehicles-7.jpg", "manufacturer": "Ford", "model": "Mustang Mach-E", "year": 2023, "price": 60000, "monthly_rental": 750 },
+    { "imgSrc": "electric-vehicles-8.jpg", "manufacturer": "Audi", "model": "e-tron", "year": 2022, "price": 70000, "monthly_rental": 850 },
+    { "imgSrc": "electric-vehicles-9.jpg", "manufacturer": "BMW", "model": "iX", "year": 2023, "price": 85000, "monthly_rental": 1000 },
+    { "imgSrc": "electric-vehicles-10.jpg", "manufacturer": "Hyundai", "model": "Ioniq 5", "year": 2022, "price": 45000, "monthly_rental": 550 },
+    { "imgSrc": "electric-vehicles-11.jpg", "manufacturer": "Kia", "model": "EV6", "year": 2023, "price": 47000, "monthly_rental": 570 },
+    { "imgSrc": "electric-vehicles-12.jpg", "manufacturer": "Mercedes-Benz", "model": "EQC", "year": 2022, "price": 75000, "monthly_rental": 900 },
+    { "imgSrc": "electric-vehicles-13.jpg", "manufacturer": "Porsche", "model": "Taycan", "year": 2023, "price": 120000, "monthly_rental": 1400 },
+    { "imgSrc": "electric-vehicles-14.jpg", "manufacturer": "Volkswagen", "model": "ID.4", "year": 2022, "price": 45000, "monthly_rental": 550 },
+    { "imgSrc": "electric-vehicles-15.jpg", "manufacturer": "Volvo", "model": "XC40 Recharge", "year": 2023, "price": 58000, "monthly_rental": 700 },
+    { "imgSrc": "electric-vehicles-16.jpg", "manufacturer": "Jaguar", "model": "I-Pace", "year": 2022, "price": 70000, "monthly_rental": 850 },
+    { "imgSrc": "electric-vehicles-17.jpg", "manufacturer": "Rivian", "model": "R1T", "year": 2023, "price": 80000, "monthly_rental": 950 },
+    { "imgSrc": "electric-vehicles-18.jpg", "manufacturer": "Lucid", "model": "Air", "year": 2022, "price": 95000, "monthly_rental": 1100 },
+    { "imgSrc": "electric-vehicles-19.jpg", "manufacturer": "Polestar", "model": "Polestar 2", "year": 2023, "price": 55000, "monthly_rental": 700 },
+    { "imgSrc": "electric-vehicles-20.jpg", "manufacturer": "Mazda", "model": "MX-30", "year": 2022, "price": 36000, "monthly_rental": 450 }
+  ]
+}
+  

@@ -143,7 +143,7 @@ export default {
   margin-top: 50px;
   max-width: 1000px;
   width: 100%;
-  height: 500px;
+  // height: 500px;
   overflow: hidden;
 }
 

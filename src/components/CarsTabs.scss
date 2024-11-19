@@ -1,0 +1,158 @@
+.tabs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+  
+  &__btn {
+    background-color: transparent;
+    border: none;
+    color: var(--Black, #151515);
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: transform 0.1s ease;
+    
+    &.active {
+      color: var(--text-active-color);
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+  @media (min-width: 576px) {
+    gap: 25px;
+    flex-direction: row;
+    &__btn {
+      font-size: 15px;
+    }
+  }
+  @media (min-width: 768px) {
+    gap: 50px;
+    &__btn {
+      font-size: 20px;
+    }
+  }
+  @media (min-width: 992px) {
+    gap: 80px;
+    &__btn {
+      font-size: 24px;
+    }
+  }
+}
+
+.tab-content {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 40px;
+  
+  @media (min-width: 576px) {
+    margin-top: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px 40px;
+  }
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px 40px;
+  }
+  @media (min-width: 992px) {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px 40px;
+  }
+}
+
+.card {
+  max-width: none;
+  border: 1px solid var(--text-active-color);
+  border-radius: 12px;
+  overflow: hidden;
+
+  &__image {
+    width: 100%;
+    height: 280px;
+    border-bottom: 1px solid var(--text-active-color);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  @media (min-width: 576px) {
+    max-width: 270px;
+    &__image {
+      height: 130px;
+    }
+  }
+  @media (min-width: 768px) {
+    &__image {
+      width: 100%;
+    }
+  }
+  @media (min-width: 992px) {
+    &__image {
+      width: 100%;
+      height: 130px;
+    }
+  }
+  @media (min-width: 1200px) {
+    &__image {
+      width: 100%;
+      height: 170px;
+    }
+  }
+
+  &__title,
+  &__subtitle,
+  &__price {
+    margin: 0;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 19.5px 42px;
+
+    position: relative;
+  }
+
+  &__button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: var(--blue, #06f);
+
+    /* Text 16 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 20.8px */
+
+    background-color: transparent;
+    border: none;
+    border-top: 1px solid var(--text-active-color);
+  }
+}
+.fade-move,
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+  transform: translateY(20px);
+  /* Лёгкое смещение вниз */
+}
+
+.fade-leave-active {
+  position: absolute;
+}

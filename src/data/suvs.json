@@ -1,0 +1,24 @@
+{
+  "suvs": [
+    { "imgSrc": "suvs-1.jpg", "manufacturer": "Toyota", "model": "Land Cruiser", "year": 2023, "price": 85000, "monthly_rental": 1000 },
+    { "imgSrc": "suvs-2.jpg", "manufacturer": "Jeep", "model": "Wrangler", "year": 2022, "price": 50000, "monthly_rental": 600 },
+    { "imgSrc": "suvs-3.jpg", "manufacturer": "Ford", "model": "Bronco", "year": 2023, "price": 55000, "monthly_rental": 650 },
+    { "imgSrc": "suvs-4.jpg", "manufacturer": "Land Rover", "model": "Range Rover", "year": 2022, "price": 90000, "monthly_rental": 1100 },
+    { "imgSrc": "suvs-5.jpg", "manufacturer": "Mercedes-Benz", "model": "G-Class", "year": 2023, "price": 130000, "monthly_rental": 1500 },
+    { "imgSrc": "suvs-6.jpg", "manufacturer": "BMW", "model": "X5", "year": 2022, "price": 70000, "monthly_rental": 800 },
+    { "imgSrc": "suvs-7.jpg", "manufacturer": "Audi", "model": "Q7", "year": 2023, "price": 75000, "monthly_rental": 850 },
+    { "imgSrc": "suvs-8.jpg", "manufacturer": "Lexus", "model": "GX", "year": 2022, "price": 65000, "monthly_rental": 780 },
+    { "imgSrc": "suvs-9.jpg", "manufacturer": "Chevrolet", "model": "Tahoe", "year": 2023, "price": 60000, "monthly_rental": 700 },
+    { "imgSrc": "suvs-10.jpg", "manufacturer": "Nissan", "model": "Armada", "year": 2022, "price": 58000, "monthly_rental": 690 },
+    { "imgSrc": "suvs-11.jpg", "manufacturer": "Ford", "model": "Explorer", "year": 2023, "price": 55000, "monthly_rental": 660 },
+    { "imgSrc": "suvs-12.jpg", "manufacturer": "Toyota", "model": "4Runner", "year": 2022, "price": 45000, "monthly_rental": 550 },
+    { "imgSrc": "suvs-13.jpg", "manufacturer": "Mazda", "model": "CX-9", "year": 2023, "price": 45000, "monthly_rental": 530 },
+    { "imgSrc": "suvs-14.jpg", "manufacturer": "Hyundai", "model": "Palisade", "year": 2022, "price": 40000, "monthly_rental": 510 },
+    { "imgSrc": "suvs-15.jpg", "manufacturer": "Honda", "model": "Pilot", "year": 2023, "price": 43000, "monthly_rental": 520 },
+    { "imgSrc": "suvs-16.jpg", "manufacturer": "Subaru", "model": "Ascent", "year": 2022, "price": 42000, "monthly_rental": 500 },
+    { "imgSrc": "suvs-17.jpg", "manufacturer": "Volkswagen", "model": "Atlas", "year": 2023, "price": 46000, "monthly_rental": 540 },
+    { "imgSrc": "suvs-18.jpg", "manufacturer": "Kia", "model": "Telluride", "year": 2022, "price": 41000, "monthly_rental": 510 },
+    { "imgSrc": "suvs-19.jpg", "manufacturer": "Dodge", "model": "Durango", "year": 2023, "price": 43000, "monthly_rental": 520 },
+    { "imgSrc": "suvs-20.jpg", "manufacturer": "GMC", "model": "Yukon", "year": 2022, "price": 60000, "monthly_rental": 690 }
+  ]
+}

@@ -1,5 +1,5 @@
 <template>
-  <main :class="{'main': true, 'page-top-padding': $route.meta.mainPage === false}">
+  <main :class="{ 'main': true, 'page-top-padding': $route.meta.mainPage === false }">
     Lease VS Buy
   </main>
 </template>

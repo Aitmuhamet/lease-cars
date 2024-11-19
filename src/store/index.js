@@ -47,6 +47,9 @@ export default createStore({
     toggleMenu(state) {
       state.isMenuOpen = !state.isMenuOpen;
     },
+    closeMenu(state) {
+      state.isMenuOpen = false;
+    }
   },
   modules: {
     home,
