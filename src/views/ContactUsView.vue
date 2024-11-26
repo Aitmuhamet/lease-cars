@@ -1,9 +1,7 @@
 <template>
   <main :class="{'main': true, 'page-top-padding': $route.meta.mainPage === false}">
-    Contact Us
-
     <div class="container">
-
+      <feedback-form></feedback-form>
       <cars-posts></cars-posts>
     </div>
   </main>
@@ -11,10 +9,12 @@
 
 <script>
 import CarsPosts from '@/components/CarsPosts.vue';
+import FeedbackForm from '@/components/FeedbackForm.vue';
 
 export default {
   components: {
-    CarsPosts
+    CarsPosts,
+    FeedbackForm
   }
 }
 </script>

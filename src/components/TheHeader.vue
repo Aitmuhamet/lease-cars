@@ -41,7 +41,7 @@
                 href="#"
                 @click="navigate"
                 class="menu-link"
-                :class="{ active: $route.path.indexOf(href) !== -1 }"
+                :class="{ active: $route.path.indexOf(href.slice(1)) !== -1 }"
               >
                 {{ link.title }}
               </a>
